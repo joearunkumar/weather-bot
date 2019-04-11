@@ -1,0 +1,35 @@
+
+slots:
+  GPE:
+    type: text
+
+intents:
+  - greeting
+  - how_are_you
+  - bye
+  - get_weather
+
+entities:
+  - products
+
+actions:
+  - utter_greeting
+  - utter_how_i_am
+  - utter_bye
+  - action_get_weather
+
+templates:
+  utter_default:
+    - Per aspera ad astra.
+  utter_greeting:
+    - Hi!
+    - Hello!
+    - Hello, my friend.
+    - Hello there, my friend.
+  utter_how_i_am:
+    - I am doing ok.
+    - I am good.
+    - I am doing good.
+  utter_bye:
+    - Bye.
+    - Good bye.
